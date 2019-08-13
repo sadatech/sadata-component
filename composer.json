@@ -30,8 +30,19 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Sada\\Sadata\\SadataComponentProvider"
+            ],
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "scripts": {
+        "post-update-cmd": [
+            "@php artisan vendor:publish --provider=\"YKuadrat\\FormBuilder\\FormBuilderProvider\" --tag=assets --force",
+            "@php artisan vendor:publish --provider=\"YKuadrat\\DatatableBuilder\\DatatableBuilderProvider\" --tag=assets --force"
+        ]
+    }
 }
