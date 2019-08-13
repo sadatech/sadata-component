@@ -4,7 +4,7 @@ namespace Sada\SadataComponent;
 
 use Illuminate\Support\ServiceProvider;
 
-class FormBuilderProvider extends ServiceProvider
+class SadataComponentProvider extends ServiceProvider
 {
     /**
      * Bootstrap services.
@@ -24,6 +24,7 @@ class FormBuilderProvider extends ServiceProvider
     public function register()
     {
         $this->loadViews();
+        $this->publishAssets();
     }
 
     private function loadViews()
@@ -34,6 +35,13 @@ class FormBuilderProvider extends ServiceProvider
         $this->publishes([
             $viewsPath => base_path('resources/views/vendor/sadata-component'),
         ], 'views');
+    }
+
+    private function publishAssets()
+    {
+        $this->publishes([
+            $this->packagePath('resources/assets') => public_path('vendor/sadata'),
+        ], 'assets');
     }
 
     private function packagePath($path)

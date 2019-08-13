@@ -35,15 +35,15 @@ License: You must have a valid license purchased only from themeforest(the above
         <!--end::Web font -->
 
         <!--begin::Global Theme Styles -->
-        <link href="{{ asset('assets/vendors/base/vendors.bundle.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('vendors/sadata/base/vendors.bundle.css') }}" rel="stylesheet" type="text/css" />
 
-        <!--RTL version:<link href="{{ asset('assets/vendors/base/vendors.bundle.rtl.css') }}" rel="stylesheet" type="text/css" />-->
-        <link href="{{ asset('assets/demo/default/base/style.bundle.css') }}" rel="stylesheet" type="text/css" />
+        <!--RTL version:<link href="{{ asset('vendors/sadata/base/vendors.bundle.rtl.css') }}" rel="stylesheet" type="text/css" />-->
+        <link href="{{ asset('vendors/sadata/demo/default/base/style.bundle.css') }}" rel="stylesheet" type="text/css" />
 
-        <!--RTL version:<link href="{{ asset('assets/demo/default/base/style.bundle.rtl.css') }}" rel="stylesheet" type="text/css" />-->
+        <!--RTL version:<link href="{{ asset('vendors/sadata/demo/default/base/style.bundle.rtl.css') }}" rel="stylesheet" type="text/css" />-->
 
         <!--end::Global Theme Styles -->
-        <link rel="shortcut icon" href="{{ asset('assets/demo/default/media/img/logo/favicon.ico') }}" />
+        <link rel="shortcut icon" href="{{ asset('vendors/sadata/demo/default/media/img/logo/favicon.ico') }}" />
     </head>
 
     <!-- end::Head -->
@@ -53,12 +53,12 @@ License: You must have a valid license purchased only from themeforest(the above
 
         <!-- begin:: Page -->
         <div class="m-grid m-grid--hor m-grid--root m-page">
-            <div class="m-grid__item m-grid__item--fluid m-grid m-grid--hor m-login m-login--signin m-login--2 m-login-2--skin-3" id="m_login" style="background-image: url({{ asset('assets/app/media/img//bg/bg-2.jpg') }});">
+            <div class="m-grid__item m-grid__item--fluid m-grid m-grid--hor m-login m-login--signin m-login--2 m-login-2--skin-3" id="m_login" style="background-image: url({{ asset('vendors/sadata/app/media/img//bg/bg-2.jpg') }});">
                 <div class="m-grid__item m-grid__item--fluid    m-login__wrapper">
                     <div class="m-login__container">
                         <div class="m-login__logo">
                             <a href="#">
-                                <img src="{{ asset('assets/app/media/img/logos/logo-1.png') }}">
+                                <img src="{{ asset('vendors/sadata/app/media/img/logos/logo-1.png') }}">
                             </a>
                         </div>
                         <div class="m-login__signin">
@@ -151,13 +151,13 @@ License: You must have a valid license purchased only from themeforest(the above
         <!-- end:: Page -->
 
         <!--begin::Global Theme Bundle -->
-        <script src="{{ asset('assets/vendors/base/vendors.bundle.js') }}" type="text/javascript"></script>
-        <script src="{{ asset('assets/demo/default/base/scripts.bundle.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('vendors/sadata/base/vendors.bundle.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('vendors/sadata/demo/default/base/scripts.bundle.js') }}" type="text/javascript"></script>
 
         <!--end::Global Theme Bundle -->
 
         <!--begin::Page Scripts -->
-        {{-- <script src="{{ asset('assets/snippets/custom/pages/user/login.js') }}" type="text/javascript"></script> --}}
+        {{-- <script src="{{ asset('vendors/sadata/snippets/custom/pages/user/login.js') }}" type="text/javascript"></script> --}}
 
         <!--end::Page Scripts -->
     </body>
