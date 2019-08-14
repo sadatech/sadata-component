@@ -72,51 +72,51 @@ License: You must have a valid license purchased only from themeforest(the above
 	<!--end::Web font -->
 
 	<!--begin:: Global Mandatory Vendors -->
-	<link href="{{ asset('vendors/sadata/vendors/perfect-scrollbar/css/perfect-scrollbar.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/perfect-scrollbar/css/perfect-scrollbar.css') }}" rel="stylesheet" type="text/css" />
 	<!--end:: Global Mandatory Vendors -->
 
 	<!--begin:: Global Optional Vendors -->
-	<link href="{{ asset('vendors/sadata/vendors/tether/dist/css/tether.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/bootstrap-datepicker/dist/css/bootstrap-datepicker3.min.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/bootstrap-datetime-picker/css/bootstrap-datetimepicker.min.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/bootstrap-timepicker/css/bootstrap-timepicker.min.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/bootstrap-daterangepicker/daterangepicker.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/bootstrap-select/dist/css/bootstrap-select.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/select2/dist/css/select2.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/nouislider/distribute/nouislider.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/owl.carousel/dist/assets/owl.carousel.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/owl.carousel/dist/assets/owl.theme.default.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/ion-rangeslider/css/ion.rangeSlider.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/ion-rangeslider/css/ion.rangeSlider.skinFlat.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/dropzone/dist/dropzone.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/summernote/dist/summernote.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/bootstrap-markdown/css/bootstrap-markdown.min.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/animate.css/animate.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/toastr/build/toastr.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/jstree/dist/themes/default/style.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/morris.js/morris.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/chartist/dist/chartist.min.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/sweetalert2/dist/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/socicon/css/socicon.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/vendors/line-awesome/css/line-awesome.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/vendors/flaticon/css/flaticon.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/vendors/metronic/css/styles.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('vendors/sadata/vendors/vendors/fontawesome5/css/all.min.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/tether/dist/css/tether.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/bootstrap-datepicker/dist/css/bootstrap-datepicker3.min.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/bootstrap-datetime-picker/css/bootstrap-datetimepicker.min.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/bootstrap-timepicker/css/bootstrap-timepicker.min.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/bootstrap-daterangepicker/daterangepicker.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/bootstrap-select/dist/css/bootstrap-select.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/select2/dist/css/select2.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/nouislider/distribute/nouislider.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/owl.carousel/dist/assets/owl.carousel.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/owl.carousel/dist/assets/owl.theme.default.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/ion-rangeslider/css/ion.rangeSlider.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/ion-rangeslider/css/ion.rangeSlider.skinFlat.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/dropzone/dist/dropzone.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/summernote/dist/summernote.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/bootstrap-markdown/css/bootstrap-markdown.min.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/animate.css/animate.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/toastr/build/toastr.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/jstree/dist/themes/default/style.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/morris.js/morris.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/chartist/dist/chartist.min.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/sweetalert2/dist/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/socicon/css/socicon.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/vendors/line-awesome/css/line-awesome.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/vendors/flaticon/css/flaticon.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/vendors/metronic/css/styles.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/vendors/vendors/fontawesome5/css/all.min.css') }}" rel="stylesheet" type="text/css" />
 	<!--end:: Global Optional Vendors -->
 
 	<!--begin::Global Theme Styles -->
-	<link href="{{ asset('vendors/sadata/theme/demo/base/style.bundle.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('vendor/sadata/theme/demo/base/style.bundle.css') }}" rel="stylesheet" type="text/css" />
 
-	<!--RTL version:<link href="{{ asset('vendors/sadata/theme/demo/base/style.bundle.rtl.css') }}" rel="stylesheet" type="text/css" />-->
+	<!--RTL version:<link href="{{ asset('vendor/sadata/theme/demo/base/style.bundle.rtl.css') }}" rel="stylesheet" type="text/css" />-->
 	<!--end::Global Theme Styles -->
 
-	<link rel="shortcut icon" href="{{ asset('vendors/sadata/theme/demo/media/img/logo/favicon.ico') }}" />
+	<link rel="shortcut icon" href="{{ asset('vendor/sadata/theme/demo/media/img/logo/favicon.ico') }}" />
 
 	@stack('additional-css')
 
-	<script src="{{ asset('vendors/sadata/vendors/jquery/dist/jquery.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/jquery/dist/jquery.js')}}" type="text/javascript"></script>
 	
 	{{-- @yield('fb-select2-resource') --}}
 	@yield('fb-resource')
@@ -138,7 +138,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						<div class="m-stack m-stack--ver m-stack--general">
 							<div class="m-stack__item m-stack__item--middle m-brand__logo">
 								<a href="../../index.html" class="m-brand__logo-wrapper">
-									<img alt="" src="{{ asset('vendors/sadata/theme/demo/media/img/logo/logo_default_dark.png') }}" />
+									<img alt="" src="{{ asset('vendor/sadata/theme/demo/media/img/logo/logo_default_dark.png') }}" />
 								</a>
 							</div>
 							<div class="m-stack__item m-stack__item--middle m-brand__tools">
@@ -300,80 +300,80 @@ License: You must have a valid license purchased only from themeforest(the above
 	</form>
 
 	<!--begin:: Global Mandatory Vendors -->
-	<script src="{{ asset('vendors/sadata/vendors/popper.js/dist/umd/popper.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/bootstrap/dist/js/bootstrap.min.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/js-cookie/src/js.cookie.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/moment/min/moment.min.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/tooltip.js/dist/umd/tooltip.min.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/perfect-scrollbar/dist/perfect-scrollbar.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/wnumb/wNumb.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/popper.js/dist/umd/popper.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/bootstrap/dist/js/bootstrap.min.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/js-cookie/src/js.cookie.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/moment/min/moment.min.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/tooltip.js/dist/umd/tooltip.min.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/perfect-scrollbar/dist/perfect-scrollbar.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/wnumb/wNumb.js')}}" type="text/javascript"></script>
 	<!--end:: Global Mandatory Vendors -->
 
 	<!--begin:: Global Optional Vendors -->
-	<script src="{{ asset('vendors/sadata/vendors/jquery.repeater/src/lib.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/jquery.repeater/src/jquery.input.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/jquery.repeater/src/repeater.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/jquery-form/dist/jquery.form.min.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/block-ui/jquery.blockUI.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/js/framework/components/plugins/forms/bootstrap-datepicker.init.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/bootstrap-datetime-picker/js/bootstrap-datetimepicker.min.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/bootstrap-timepicker/js/bootstrap-timepicker.min.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/js/framework/components/plugins/forms/bootstrap-timepicker.init.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/bootstrap-daterangepicker/daterangepicker.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/js/framework/components/plugins/forms/bootstrap-daterangepicker.init.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/bootstrap-maxlength/src/bootstrap-maxlength.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/bootstrap-switch/dist/js/bootstrap-switch.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/js/framework/components/plugins/forms/bootstrap-switch.init.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/vendors/bootstrap-multiselectsplitter/bootstrap-multiselectsplitter.min.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/bootstrap-select/dist/js/bootstrap-select.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/select2/dist/js/select2.full.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/typeahead.js/dist/typeahead.bundle.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/handlebars/dist/handlebars.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/inputmask/dist/jquery.inputmask.bundle.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/inputmask/dist/inputmask/inputmask.date.extensions.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/inputmask/dist/inputmask/inputmask.numeric.extensions.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/inputmask/dist/inputmask/inputmask.phone.extensions.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/nouislider/distribute/nouislider.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/owl.carousel/dist/owl.carousel.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/autosize/dist/autosize.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/clipboard/dist/clipboard.min.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/ion-rangeslider/js/ion.rangeSlider.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/dropzone/dist/dropzone.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/summernote/dist/summernote.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/markdown/lib/markdown.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/bootstrap-markdown/js/bootstrap-markdown.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/js/framework/components/plugins/forms/bootstrap-markdown.init.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/jquery-validation/dist/jquery.validate.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/jquery-validation/dist/additional-methods.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/js/framework/components/plugins/forms/jquery-validation.init.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/bootstrap-notify/bootstrap-notify.min.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/js/framework/components/plugins/base/bootstrap-notify.init.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/toastr/build/toastr.min.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/jstree/dist/jstree.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/raphael/raphael.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/morris.js/morris.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/chartist/dist/chartist.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/chart.js/dist/Chart.bundle.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/js/framework/components/plugins/charts/chart.init.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/vendors/bootstrap-session-timeout/dist/bootstrap-session-timeout.min.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/vendors/jquery-idletimer/idle-timer.min.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/waypoints/lib/jquery.waypoints.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/counterup/jquery.counterup.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/es6-promise-polyfill/promise.min.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/sweetalert2/dist/sweetalert2.min.js')}}" type="text/javascript"></script>
-	<script src="{{ asset('vendors/sadata/vendors/js/framework/components/plugins/base/sweetalert2.init.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/jquery.repeater/src/lib.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/jquery.repeater/src/jquery.input.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/jquery.repeater/src/repeater.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/jquery-form/dist/jquery.form.min.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/block-ui/jquery.blockUI.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/js/framework/components/plugins/forms/bootstrap-datepicker.init.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/bootstrap-datetime-picker/js/bootstrap-datetimepicker.min.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/bootstrap-timepicker/js/bootstrap-timepicker.min.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/js/framework/components/plugins/forms/bootstrap-timepicker.init.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/bootstrap-daterangepicker/daterangepicker.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/js/framework/components/plugins/forms/bootstrap-daterangepicker.init.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/bootstrap-maxlength/src/bootstrap-maxlength.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/bootstrap-switch/dist/js/bootstrap-switch.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/js/framework/components/plugins/forms/bootstrap-switch.init.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/vendors/bootstrap-multiselectsplitter/bootstrap-multiselectsplitter.min.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/bootstrap-select/dist/js/bootstrap-select.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/select2/dist/js/select2.full.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/typeahead.js/dist/typeahead.bundle.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/handlebars/dist/handlebars.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/inputmask/dist/jquery.inputmask.bundle.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/inputmask/dist/inputmask/inputmask.date.extensions.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/inputmask/dist/inputmask/inputmask.numeric.extensions.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/inputmask/dist/inputmask/inputmask.phone.extensions.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/nouislider/distribute/nouislider.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/owl.carousel/dist/owl.carousel.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/autosize/dist/autosize.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/clipboard/dist/clipboard.min.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/ion-rangeslider/js/ion.rangeSlider.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/dropzone/dist/dropzone.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/summernote/dist/summernote.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/markdown/lib/markdown.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/bootstrap-markdown/js/bootstrap-markdown.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/js/framework/components/plugins/forms/bootstrap-markdown.init.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/jquery-validation/dist/jquery.validate.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/jquery-validation/dist/additional-methods.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/js/framework/components/plugins/forms/jquery-validation.init.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/bootstrap-notify/bootstrap-notify.min.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/js/framework/components/plugins/base/bootstrap-notify.init.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/toastr/build/toastr.min.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/jstree/dist/jstree.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/raphael/raphael.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/morris.js/morris.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/chartist/dist/chartist.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/chart.js/dist/Chart.bundle.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/js/framework/components/plugins/charts/chart.init.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/vendors/bootstrap-session-timeout/dist/bootstrap-session-timeout.min.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/vendors/jquery-idletimer/idle-timer.min.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/waypoints/lib/jquery.waypoints.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/counterup/jquery.counterup.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/es6-promise-polyfill/promise.min.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/sweetalert2/dist/sweetalert2.min.js')}}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/vendors/js/framework/components/plugins/base/sweetalert2.init.js')}}" type="text/javascript"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/df-number-format/2.1.6/jquery.number.min.js"></script>
 	<!--end:: Global Optional Vendors -->
 
 	<!--begin::Global Theme Bundle -->
-	<script src="{{ asset('vendors/sadata/theme/demo/base/scripts.bundle.js') }}" type="text/javascript"></script>
+	<script src="{{ asset('vendor/sadata/theme/demo/base/scripts.bundle.js') }}" type="text/javascript"></script>
 	<!--end::Global Theme Bundle -->
 
 	<!--begin::Page Scripts -->
-	{{-- <script src="{{ asset('vendors/sadata/theme/demo/custom/components/portlets/tools.js') }}" type="text/javascript"></script> --}}
+	{{-- <script src="{{ asset('vendor/sadata/theme/demo/custom/components/portlets/tools.js') }}" type="text/javascript"></script> --}}
 	<!--end::Page Scripts -->
 
 	<script type="text/javascript">
