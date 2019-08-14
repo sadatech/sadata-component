@@ -33,7 +33,7 @@
         },
         "laravel": {
             "providers": [
-                "Sada\\Sadata\\SadataComponentProvider"
+                "Sada\\SadataComponent\\SadataComponentProvider"
             ],
         }
     },
