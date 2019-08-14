@@ -34,7 +34,7 @@
         "laravel": {
             "providers": [
                 "Sada\\SadataComponent\\SadataComponentProvider"
-            ],
+            ]
         }
     },
     "minimum-stability": "dev",
