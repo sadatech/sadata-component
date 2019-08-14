@@ -35,9 +35,9 @@ License: You must have a valid license purchased only from themeforest(the above
         <!--end::Web font -->
 
         <!--begin::Global Theme Styles -->
-        <link href="{{ asset('vendors/sadata/base/vendors.bundle.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('vendors/sadata/vendors/base/vendors.bundle.css') }}" rel="stylesheet" type="text/css" />
 
-        <!--RTL version:<link href="{{ asset('vendors/sadata/base/vendors.bundle.rtl.css') }}" rel="stylesheet" type="text/css" />-->
+        <!--RTL version:<link href="{{ asset('vendors/sadata/vendors/base/vendors.bundle.rtl.css') }}" rel="stylesheet" type="text/css" />-->
         <link href="{{ asset('vendors/sadata/demo/default/base/style.bundle.css') }}" rel="stylesheet" type="text/css" />
 
         <!--RTL version:<link href="{{ asset('vendors/sadata/demo/default/base/style.bundle.rtl.css') }}" rel="stylesheet" type="text/css" />-->
@@ -138,7 +138,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             </form>
                         </div>
                         <div class="m-login__account">
-                            <span class="m-login__account-msg">
+                            <span class="m-login__account-msg test">
                                 Don't have an account yet ?
                             </span>&nbsp;&nbsp;
                             <a href="javascript:;" id="m_login_signup" class="m-link m-link--light m-login__account-link">Sign Up</a>
@@ -151,8 +151,16 @@ License: You must have a valid license purchased only from themeforest(the above
         <!-- end:: Page -->
 
         <!--begin::Global Theme Bundle -->
-        <script src="{{ asset('vendors/sadata/base/vendors.bundle.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('vendors/sadata/vendors/base/vendors.bundle.js') }}" type="text/javascript"></script>
         <script src="{{ asset('vendors/sadata/demo/default/base/scripts.bundle.js') }}" type="text/javascript"></script>
+
+
+        <script type="text/javascript">
+            (function() {
+                document.getElementsByClassName("m-login__account-msg test")[0].innerHTML = "TEST";
+
+            })();
+        </script>
 
         <!--end::Global Theme Bundle -->
 
