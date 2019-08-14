@@ -2,10 +2,10 @@
 
 namespace App\Components\Menus;
 
-use App\Models\Main\Roles;
-use App\Models\Principal\ProductParentHeader;
-use App\Models\Principal\StoreAreaHeader;
-use App\Models\Principal\StoreChannelHeader;
+use Sada\SadataComponent\Models\Main\Roles;
+use Sada\SadataComponent\Models\Principal\ProductParentHeader;
+use Sada\SadataComponent\Models\Principal\StoreAreaHeader;
+use Sada\SadataComponent\Models\Principal\StoreChannelHeader;
 
 /**
  * 
