@@ -1,9 +1,8 @@
 <?php
 
-namespace Sada\SadataComponent\Components;
+namespace Sada\SadataComponent\Models;
 
 use Sada\SadataComponent\Filters\QueryFilters;
-// use Illuminate\Database\Eloquent\Model;
 use Hoyvoy\CrossDatabase\Eloquent\Model as Model;
 
 /**

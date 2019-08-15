@@ -1,6 +1,6 @@
 <?php
 
-namespace Sada\SadataComponent\Models;
+namespace Sada\SadataComponent\Models\Main;
 
 use Sada\SadataComponent\Models\MainModel;
 use Illuminate\Database\Eloquent\SoftDeletes;
