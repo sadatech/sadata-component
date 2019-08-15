@@ -25,7 +25,11 @@
     "autoload": {
         "psr-4": {
             "Sada\\SadataComponent\\": "src/"
-        }
+        },
+        "files": [
+            "vendor/sada/sadata-component/src/Helpers/database_helper.php",
+            "vendor/sada/sadata-component/src/Helpers/common_helper.php"
+        ]
     },
     "extra": {
         "branch-alias": {
