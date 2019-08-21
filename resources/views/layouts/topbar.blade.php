@@ -255,7 +255,7 @@
 								<div class="m-dropdown__content">
 									<div class="data" data="false" data-height="380" data-mobile-height="200">
 										<div class="m-nav-grid m-nav-grid--skin-light">
-											@foreach (App\Components\Menus\PrincipalTopBarMenu::get() as $index => $menu)
+											@foreach (auth()->user()->isSuperAdmin() ? [] : Sada\SadataComponent\Menus\PrincipalTopBarMenu::get() as $index => $menu)
 												<?php $newLine = (($index+1) % 2) == 1 ?>
 
 												@if ($newLine)
@@ -295,7 +295,7 @@
 										<span class="m-type m-type--lg m--bg-success"> <span class="m--font-light">YS<span> <span>
 									</div>
 									<div class="m-card-user__details">
-										<span class="m-card-user__name m--font-weight-500">{{ Auth::user()->role_id < App\Models\Main\Roles::SUPER_ADMIN ? Auth::user()->employee->name : Auth::user()->name}}</span>
+										<span class="m-card-user__name m--font-weight-500">{{ !auth()->user()->isSuperAdmin() ? Auth::user()->employee->name : Auth::user()->name}}</span>
 										<a href="" class="m-card-user__email m--font-weight-300 m-link">{{ Auth::user()->role->name ?? ''}}</a>
 									</div>
 								</div>

@@ -4,12 +4,12 @@ $editable = $editable ?? true;
 
 @endphp
 
-@component('components.accordion', ['id' => 'subscribe_section', 'title' => 'Subscription ' . ($editable ? 'Setting' : 'Info'), 'icon' => 'flaticon-notepad'])
+@component('sadata::components.accordion', ['id' => 'subscribe_section', 'title' => 'Subscription ' . ($editable ? 'Setting' : 'Info'), 'icon' => 'flaticon-notepad'])
 	<div class="row">
 		<div class="col-md-3"> <strong>Subscribe Type</strong> </div>
 		<div class="col-md-3">
 			{{ 
-				Form::select2Input('subscribe_type', $company->subscribe_type ?? old('subscribe_type'), App\Models\Main\Company::subscribeTypeList(), [
+				Form::select2Input('subscribe_type', $company->subscribe_type ?? old('subscribe_type'), Sada\SadataComponent\Models\Main\Company::subscribeTypeList(), [
 					'useLabel' => false,
 					'pluginOptions' => [
 						'minimumResultsForSearch' => -1

@@ -170,7 +170,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					</div>
 					<!-- END: Brand -->
 
-					@include('layouts.topbar')
+					@include('sadata::layouts.topbar')
 				</div>
 			</div>
 		</header>
@@ -179,12 +179,12 @@ License: You must have a valid license purchased only from themeforest(the above
 		<!-- begin::Body -->
 		<div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body">
 			<!-- BEGIN: Left Aside -->
-			@include('layouts.sidebar')
+			@include('sadata::layouts.sidebar')
 			<!-- END: Left Aside -->
 
 			<div class="m-grid__item m-grid__item--fluid m-wrapper">
 				<!-- BEGIN: Subheader -->
-				@include('layouts.breadcrumb')
+				@include('sadata::layouts.breadcrumb')
 				<!-- END: Subheader -->
 
 				<div class="m-content">
@@ -258,14 +258,14 @@ License: You must have a valid license purchased only from themeforest(the above
 		<!-- end:: Body -->
 
 		<!-- begin::Footer -->
-		@include('layouts.footer')
+		@include('sadata::layouts.footer')
 		<!-- end::Footer -->
 
 	</div>
 	<!-- end:: Page -->
 
 	<!-- begin::Quick Sidebar -->
-	@include('layouts.quick_sidebar')
+	@include('sadata::layouts.quick_sidebar')
 	<!-- end::Quick Sidebar -->
 
 	<!-- begin::Scroll Top -->
