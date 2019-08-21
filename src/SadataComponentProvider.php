@@ -3,6 +3,10 @@
 namespace Sada\SadataComponent;
 
 use Illuminate\Support\ServiceProvider;
+use Sada\SadataComponent\Middlewares\ReadNotification;
+use Sada\SadataComponent\Middlewares\SuperAdmin;
+use Sada\SadataComponent\Middlewares\UserGate;
+use Sada\SadataComponent\Middlewares\UserPrivilege;
 
 class SadataComponentProvider extends ServiceProvider
 {
@@ -13,7 +17,10 @@ class SadataComponentProvider extends ServiceProvider
      */
     public function boot()
     {
-
+        app()->make('router')->aliasMiddleware('user_gate', UserGate::class);
+        app()->make('router')->aliasMiddleware('user_privilege', UserPrivilege::class);
+        app()->make('router')->aliasMiddleware('super_admin', SuperAdmin::class);
+        app()->make('router')->aliasMiddleware('read_notif', ReadNotification::class);
     }
 
     /**
