@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Components\Menus;
+namespace Sada\SadataComponent\Menus;
 
 use Sada\SadataComponent\Models\Main\Roles;
 use Sada\SadataComponent\Models\Principal\ProductParentHeader;
