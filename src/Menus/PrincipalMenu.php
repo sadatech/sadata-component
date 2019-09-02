@@ -60,6 +60,9 @@ class PrincipalMenu
 						['label' => 'Resigned', 'url' => route('employee.list', 'resign')],
 						['label' => 'Employee Store', 'url' => route('employee_store.list')],
 					]],
+					['label' => 'Vendor(s)', 'url' => 'employee', 'icon' => 'fa fa-handshake', 'sub-menu' => [ // alt icon:
+						['label' => 'Vendor', 'url' => route('vendor.list')],
+					]],
 				],
 			],
 			[
@@ -73,6 +76,7 @@ class PrincipalMenu
 					['label' => 'OOS', 'url' => route('oos.list'), 'icon' => 'fa fa-truck-loading'],
 					['label' => 'SOS', 'url' => route('sos.list'), 'icon' => 'fa fa-table'],
 					['label' => 'Promo Tracking', 'url' => route('promo.list'), 'icon' => 'fa fa-tags'],
+					['label' => 'Maintenance Request', 'url' => route('maintenance_request.list'), 'icon' => 'fa fa-clipboard-check'],
 				],
 			],
 			[
