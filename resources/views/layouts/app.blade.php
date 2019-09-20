@@ -425,19 +425,28 @@ License: You must have a valid license purchased only from themeforest(the above
 		});
 
 		function deleteForm(action, me = null){
-			$.ajax({
-				url: action,
-				type: 'DELETE',
-			})
-			.done(function(res) {
-				callAlert(res);
-				me.parents('tr').remove();
-			})
-			.fail(function(xhr, textStatus, errorThrown) {
-				console.log(xhr.responseText);
-				res = $.parseJSON(xhr.responseText);
-				callAlert(res)
-			})
+			swal({
+                title: "Are you sure?",
+                text: "You won't be able to revert this!",
+                type: "warning",
+                showCancelButton: !0,
+                confirmButtonText: "Yes, delete it!"
+            }).then(function(e) {
+                // e.value && swal("Deleted!", "Your file has been deleted.", "success")
+				$.ajax({
+					url: action,
+					type: 'DELETE',
+				})
+				.done(function(res) {
+					callAlert(res);
+					me.parents('tr').remove();
+				})
+				.fail(function(xhr, textStatus, errorThrown) {
+					console.log(xhr.responseText);
+					res = $.parseJSON(xhr.responseText);
+					callAlert(res)
+				})
+            })
 		}
 
 		function callAlert(alert){
