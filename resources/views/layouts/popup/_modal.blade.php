@@ -4,7 +4,7 @@
 
 @if(!empty($sections))
     @foreach ($sections as $section)
-        @component('components.alert_title', ['title' => $section['title'], 'grey' => true, 'icon' => $section['icon'], 'repeated' => $section['repeated'], 'id' => ($section['id'] ?? '')])
+        @component('sadata::components.alert_title', ['title' => $section['title'], 'grey' => true, 'icon' => $section['icon'], 'repeated' => $section['repeated'], 'id' => ($section['id'] ?? '')])
         @endcomponent
 
         <div
@@ -50,6 +50,6 @@
         </div>
     @endforeach
 @else
-    @component('components.alert_title', ['title' => 'No Data Found', 'grey' => true, 'icon' => 'question-circle', 'repeated' => false])
+    @component('sadata::components.alert_title', ['title' => 'No Data Found', 'grey' => true, 'icon' => 'question-circle', 'repeated' => false])
         @endcomponent
 @endif
