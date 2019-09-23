@@ -41,7 +41,7 @@ class MainMenu
 					// ]],
 					['label' => 'Companies', 'url' => 'company', 'icon' => 'fa fa-user-tie', 'sub-menu' => [ // alt icon: fa-people-carry 
 						['label' => 'Company', 'url' => route('company.list')],
-						['label' => 'Payment', 'url' => route('company.payment.list')],
+						['label' => 'Payment', 'url' => route('payment.list')],
 					]],
 				],
 			]
