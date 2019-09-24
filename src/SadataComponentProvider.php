@@ -32,6 +32,7 @@ class SadataComponentProvider extends ServiceProvider
     {
         $this->loadViews();
         $this->publishAssets();
+        $this->publishConfig();
     }
 
     private function loadViews()
@@ -49,6 +50,17 @@ class SadataComponentProvider extends ServiceProvider
         $this->publishes([
             $this->packagePath('resources/assets') => public_path('vendor/sadata'),
         ], 'assets');
+    }
+
+    private function publishConfig()
+    {
+        $configPath = $this->packagePath('config/sadata.php');
+
+        $this->publishes([
+            $configPath => config_path('sadata.php'),
+        ], 'config');
+
+        $this->mergeConfigFrom($configPath, 'sadata');
     }
 
     private function packagePath($path)
